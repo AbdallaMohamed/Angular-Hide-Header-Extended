@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-    angular.module('angularHideHeader', []).directive('hideHeader', ['$timeout', '$window', function ($timeout, $window) {
+    angular.module('angularHideHeaderExtended', []).directive('hideHeader', ['$timeout', '$window', function ($timeout, $window) {
         return {
             restrict: 'A',
             scope: {
