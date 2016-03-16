@@ -9,6 +9,12 @@
             link: function (scope, element, attrs) {
                 var scrollposition = 0, scroll_time;
                 var hideOffset = attrs.hideOffset;
+                // if the hideHeaderOn changes suddenly to false, show the header
+                scope.$watch('hideHeaderOn', function (hideHeader) {
+                    if(!hideHeader) {
+                        element.css({'top': "0px"});
+                    }
+                });
                 angular.element($window).bind("scroll", function () {
                     var body = angular.element(document.getElementsByTagName('body'));
                     var current_scroll = body[0].scrollTop;
