@@ -1,0 +1,29 @@
+{
+    "name": "angular-hide-header-extended",
+    "authors": [
+        "Mario Flores <pokazzam@gmail.com>",
+        "Abdalla Mohamed El-Abd <abdalla.mohamed.elabd@gmail.com>"
+    ],
+    "description": "angular directive to hide header when scroll page down and show when scroll up",
+    "main": "dist/angular-hide-header-extended.js",
+    "keywords": [
+        "hide-header",
+        "angular-hide-header",
+        "angular-hide-header-extended",
+        "hide",
+        "header"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/AbdallaMohamed/angular-hide-header-extended",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "app/bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "angular": "1.2.28"
+    }
+}
