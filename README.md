@@ -7,7 +7,7 @@ Angular directive for hiding a header when scrolling down and showing it when sc
 
 Demo
 -------
-Check out [the live demo](http://run.plnkr.co/plunks/ePnxK2).
+Check out [the live demo](http://run.plnkr.co/plunks/ePnxK2/).
 
 Installation
 -------
